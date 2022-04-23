@@ -1,0 +1,32 @@
+{% extends 'blog/base.html' %}
+
+{% block content %}
+<div style="text-align: center;">
+    <h1 >register user</h1>
+        <div style="width: 500px; display: inline-block; text-align: center";>
+            <div>    
+            <div style="text-align: center">
+                <form method="POST" class="post-form">
+                {% csrf_token %}
+                <table class="table table-bordered table-hover">
+                    <tr>
+                        <td>username</td>
+                        <td><input type="text" default="name" name="name" id="name" required ></td>
+                    </tr>
+                    <tr>
+                        <td>email</td>
+                        <td><input type="text" default="email" name="email" id="email" required ></td>
+                    </tr>
+                    <tr>
+                        <td>Passowrd</td>
+                        <td><input type="password" default="password" name="pass" id="pass" required ></td>
+                    </tr>
+                </table>
+
+                <button type="submit" class="save btn btn-primary">등록</button>
+            </form method="POST">
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
