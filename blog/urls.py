@@ -19,5 +19,6 @@ urlpatterns = [
     # http://localhost:8000/blog/comment/2/remove
     path('comment/<int:pk>/remove/', views.comment_remove, name='comment_remove'),
     path('regist/',views.register_user, name='register_user'),
-
+    # http://localhost:8000/map
+    path('map/', views.show_map, name='show_map'),
 ]
