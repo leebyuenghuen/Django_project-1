@@ -7,4 +7,5 @@
 
 - [ ] 2. 검색한 식재료 기반 건강 레시피 불러오기
   - 식재료 입력 > 관련 건강 레시피 (레시피 API or DB csv파일)
-![스크린샷 2022-04-25 오전 11 37 57](https://user-images.githubusercontent.com/76195470/165011603-14b3a2ba-3d3e-4197-a03a-3e501437cd96.png)
+
+![스크린샷 2022-04-25 오전 11 38 48](https://user-images.githubusercontent.com/76195470/165011662-6781b3c8-42db-40f5-b24c-4503a41fc32a.png)
