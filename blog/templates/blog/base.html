@@ -22,10 +22,10 @@
             </p>
         {% else %}
             <a href="{% url 'login' %}?next={{request.path}}" class="top-menu">
-                <span class="glyphicon glyphicon-lock"></span>
+                <span class="glyphicon glyphicon-lock">login</span>
             </a>
             <a href="{% url 'register_user' %}" class="top-menu"> 
-                <span class="glyphicon glyphicon-check"></span>
+                <span class="glyphicon glyphicon-check">signUp</span>
             </a>
         {% endif %}
         <h1><a href="{% url 'post_list_home' %}">HnH</a></h1>
