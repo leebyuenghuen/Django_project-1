@@ -88,7 +88,7 @@ DATABASES = {
         'USER': 'python', # 데이터베이스 계정
         'PASSWORD':'python', # 계정 비밀번호
         #'HOST':'localhost', # 데이테베이스 IP
-        'HOST':'mysql.oranda-local',        # rds ep
+        'HOST':'mysql.cyf8tnql7evk.us-east-2.rds.amazonaws.com',        # rds ep
         'PORT':'3306', # 데이터베이스 port
     }
 }
