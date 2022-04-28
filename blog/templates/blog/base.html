@@ -11,6 +11,9 @@
 </head>
 <body>
     <div class="page-header">
+        {% if user.is_authenticated %}
+            <p class="top-menu">Hello {{ user.username }} </p>
+        {% endif %}
         <h1><a href="{% url 'post_list_home' %}">HnH</a></h1>
         <!-- </div> -->
         <nav class="navbar navbar-default">            
