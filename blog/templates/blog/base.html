@@ -11,25 +11,28 @@
 </head>
 <body>
     <div class="page-header">
-        {% if user.is_authenticated %}
-            <a href="{% url 'post_new' %}" class="top-menu">
-                <span class="glyphicon glyphicon-plus"></span>
-            </a>
-            <p class="top-menu">Hello {{ user.username }}
-                <small>
-                    (<a href="{% url 'logout' %}?next={{request.path}}">Log out</a>)
-                </small>
-            </p>
-        {% else %}
-            <a href="{% url 'login' %}?next={{request.path}}" class="top-menu">
-                <span class="glyphicon glyphicon-lock">login</span>
-            </a>
-            <a href="{% url 'register_user' %}" class="top-menu"> 
-                <span class="glyphicon glyphicon-check">signUp</span>
-            </a>
-        {% endif %}
         <h1><a href="{% url 'post_list_home' %}">HnH</a></h1>
-        <h2><a href="{% url 'show_map' %}">Search Map</a></h2>
+        <!-- </div> -->
+        <nav class="navbar navbar-default">            
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                <li><a href="{% url 'post_list_home' %}">Home</a></li>
+                <li><a href="{% url 'show_map' %}">Search Map</a></li>
+                <li><a href="https://developer.edamam.com/recipe-demo">Recipes</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    {% if user.is_authenticated %}
+                        <li><a href="{% url 'post_list_home' %}">Find friends to eat together!</a></li>
+                        <li><a href="{% url 'post_new' %}">Post</a></li>
+                        <li><a href="{% url 'logout' %}?next={{request.path}}">Logout</a></li>
+                    {% else %}
+                        <li><a href="{% url 'login' %}?next={{request.path}}">Login</a></li>
+                        <li><a href="{% url 'register_user' %}">SignUp</a></li>
+                    {% endif %}
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </nav>
     </div>
     <!-- HTML 주석 -->
     {# 파이썬 주석1 #}
