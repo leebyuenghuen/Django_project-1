@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lobster&subset=latin,latin-ext">
-    <link rel="stylesheet" href="{% static 'css/blog.css' %}">
+    <link rel="stylesheet" href="{% static 'css/blog.css'%}">
 </head>
 <body>
     <div class="page-header">
@@ -23,6 +23,7 @@
                 <li><a href="{% url 'post_list_home' %}">Home</a></li>
                 <li><a href="{% url 'show_map' %}">Search Map</a></li>
                 <li><a href="https://developer.edamam.com/recipe-demo">Recipes</a></li>
+                <li><a href="#">Event</a></li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
                     {% if user.is_authenticated %}
