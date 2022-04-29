@@ -90,7 +90,7 @@ DATABASES = {
     #     #'HOST':'localhost', # 데이테베이스 IP
     #     'HOST':'mysql-svc',        # rds ep
     #     'PORT':'3306', # 데이터베이스 port
-    }
+    #}
 }
 
 
