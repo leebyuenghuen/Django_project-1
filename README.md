@@ -25,6 +25,7 @@
 ## 4. 구현 기술
  ### 1) Kubernetes Service
  - SVC, Deployment, Statefulset, Secret, ConfigMap, Cronjob, Namespace, HPA 
+ 
  ### 2) AWS 
  - ECR
  - ACM
