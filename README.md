@@ -11,6 +11,9 @@
 ## 구성도
 
 ![image](https://user-images.githubusercontent.com/97427442/175875211-1fed3d8f-82cb-427c-8fcf-1f4dc220b5de.png)
+![image](https://user-images.githubusercontent.com/97427442/175876637-85cd6696-8806-4521-935e-d93d6f7e80ad.png)
+![image](https://user-images.githubusercontent.com/97427442/175876659-5ff6f197-875e-41a5-97d8-fc18f75f4e66.png)
+
 
 
 ## 기능
