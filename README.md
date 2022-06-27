@@ -8,6 +8,11 @@
 ## 공동작업
 링크 : https://www.notion.so/HnH_-e7380e3bddeb42c1a139e96187649f17
 
+## 구성도
+
+![image](https://user-images.githubusercontent.com/97427442/175875211-1fed3d8f-82cb-427c-8fcf-1f4dc220b5de.png)
+
+
 ## 기능
 - 1. 검색한 식재료 기반 음식점추천
   - 식재료 검색 > 사용자의 위치 기반으로 주변 음식점 추천 목록 불러오기
@@ -18,4 +23,6 @@
  
 - 3. 밥 친구 및 정보 공유 게시판
   - Django를 이용한 웹 게시판
+
+
  
